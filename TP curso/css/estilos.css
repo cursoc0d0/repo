@@ -1,0 +1,91 @@
+/* 
+html {
+    font-size: 62.5%;
+}
+ */
+@-moz-keyframes changeColor {
+    0% {
+        background: red;
+    }
+    /* Primer fotograma */
+    50% {
+        background: yellow;
+        width: 400px;
+    }
+    /* Último fotograma */
+    100% {
+        background: green;
+    }
+}
+
+@-ms-keyframes changeColor {
+    0% {
+        background: red;
+    }
+    /* Primer fotograma */
+    50% {
+        background: yellow;
+        width: 400px;
+    }
+    /* Último fotograma */
+    100% {
+        background: green;
+    }
+}
+
+@-webkit-keyframes changeColor {
+    0% {
+        background: red;
+    }
+    /* Primer fotograma */
+    50% {
+        background: yellow;
+        width: 400px;
+    }
+    /* Último fotograma */
+    100% {
+        background: green;
+    }
+}
+
+@-o-keyframes changeColor {
+    0% {
+        background: red;
+    }
+    /* Primer fotograma */
+    50% {
+        background: yellow;
+        width: 400px;
+    }
+    /* Último fotograma */
+    100% {
+        background: green;
+    }
+}
+
+@keyframes changeColor {
+    0% {
+        background: red;
+    }
+    /* Primer fotograma */
+    50% {
+        background: yellow;
+        width: 400px;
+    }
+    /* Último fotograma */
+    100% {
+        background: green;
+    }
+}
+
+.anim {
+    background: grey;
+    color: #FFF;
+    width: 200px;
+    height: 20px;
+    -webkit-animation: changeColor 5s linear infinite alternate;
+    -moz-animation: changeColor 5s linear infinite alternate;
+    -ms-animation: changeColor 5s linear infinite alternate;
+    -o-animation: changeColor 5s linear infinite alternate;
+    animation: changeColor 5s linear infinite alternate;
+}
