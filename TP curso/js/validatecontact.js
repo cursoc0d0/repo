@@ -1,23 +1,28 @@
-const sendbutton = document.getElementById('sendbutton');
+function validacion() {
+  valor = document.getElementById("firstname").value;
+  valor1 = document.getElementById("lastname").value;
+  valor2 = document.getElementById("email").value;
+  valor3 = document.getElementById("phone").value;
 
-const validate = (e) => {
-e.preventDefault();
-const name= document.getElementById('firstname');
-/* const name2 = document.getElementById('lastname');
-const email1 = document.getElementById('email');
-const phone1 = document.getElementById('phone');
-console.log(firstname)
- */
-if (firstname.value === "") {
-    console.log("paso por adentro");
-    alert("Por favor, escribe tu nombre de usuario.");
-    firstname.focus();
-    return false;
+  if (valor == null || valor.length == 0 || /^\s+$/.test(valor)) {
+    alert('[ERROR] Debe ingresar un nombre valido');
+    return false; 
   }
-
-  return true;
-}
-
-sendbutton.addEventListener('click', validate);
-console.log("ejecuto script");
-
+    else if
+    (valor1 == null || valor1.length == 0 || /^\s+$/.test(valor1)) {
+      alert('[ERROR] Debe in gresar un Apellido valido');
+      return false; 
+    }
+    else if
+    ( !(/^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i.test(valor2)) ) {
+      alert('[ERROR] Debe ingresar un email valido' );
+      return false;
+    }
+    else if
+    ( !(/^(?:(?:00)?549?)?0?(?:11|[2368]\d)(?:(?=\d{0,2}15)\d{2})??\d{8}$/.test(valor3)) ) {
+      alert('[ERROR] Revise el formato del telefono ingresado');
+      return false; 
+    }
+ else
+ return true;
+  }
