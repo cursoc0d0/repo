@@ -15,6 +15,22 @@ header {
     background-color:rgb(29, 69, 102);
     color: white;
     width: 100%;
+    position: relative;
+    left: 0%;
+    bottom: 0%;
+    padding: 10px;
+    height: 100px;
+    margin-top: 1vw;
+}
+.titlecustom{
+    margin: 0%;
+    padding: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    text-align: center;
+    padding-block: 10px;    
+    background-color:rgb(29, 69, 102);
+    color: white;
+    width: 100%;
 }
 .navcustom{
     background-color: grey;
@@ -57,7 +73,7 @@ footer{
     left: 0%;
     bottom: 0%;
     padding: 20px;
-    height: 50px;
+    height: 70px;
     margin-top: 1vw;
     font-size: 0.5vw;
 }
