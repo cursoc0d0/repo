@@ -26,8 +26,40 @@ header {
     padding: 10px;
     height: 100px;
     margin-top: 1vw;
-    font-size: 2vw; 
+    font-size: 4vw; 
 }
+.smallicon{
+    color: white;
+    font-size: 8vw;
+    text-align: center;
+    padding: 0.5rem;
+}
+.smallicon a{
+    color:black;
+    margin: 0px 12px; 
+    padding: 2rem;
+    font-size: 6vw;
+}
+.smallicon :hover
+{
+    color:gray;
+    font-size: 20vw;
+}
+
+    footer{
+        padding-block: 10px;
+        background-color:rgb(29, 69, 102);
+        color: white;
+        text-align: center;
+        width: 100%;
+        position: relative;
+        left: 0%;
+        bottom: 0%;
+        padding: 20px;
+        height: 80px;
+        margin-top: 1vw;
+        font-size: 3vw;
+    }
 
 h2 {
     font-size: 2.4rem;
@@ -85,7 +117,39 @@ p {
     p {
         font-size: 1 rem;
     }
+    .smallicon{
+        color: white;
+        font-size: 6vw;
+        text-align: center;
+        padding: 0.5rem;
+    }
+    .smallicon a{
+        color:black;
+        margin: 0px 12px; 
+        padding: 2rem;
+        font-size: 4vw;
+    }
+    .smallicon :hover
+    {
+        color:gray;
+        font-size: 8vw;
+    }
     
+        footer{
+            padding-block: 10px;
+            background-color:rgb(29, 69, 102);
+            color: white;
+            text-align: center;
+            width: 100%;
+            position: relative;
+            left: 0%;
+            bottom: 0%;
+            padding: 20px;
+            height: 80px;
+            margin-top: 1vw;
+            font-size: 2vw;
+        }
+        
 
 }
 
@@ -108,7 +172,7 @@ p {
         padding: 10px;
         height: 100px;
         margin-top: 1vw;
-        font-size: 3vw; 
+        font-size: 2.5vw; 
     }
 
     h2 {
@@ -118,10 +182,42 @@ p {
     p {
         font-size: 1 rem;
     }
-
+    smallicon{
+        color: white;
+        font-size: 2.5vw;
+        text-align: center;
+        padding: 0.5rem;
+    }
+    .smallicon a{
+        color:black;
+        margin: 0px 12px; 
+        padding: 2rem;
+        font-size: 2vw;
+    }
+    .smallicon :hover
+    {
+        color:gray;
+        font-size: 4vw;
+    }
+    
+        footer{
+            padding-block: 10px;
+            background-color:rgb(29, 69, 102);
+            color: white;
+            text-align: center;
+            width: 100%;
+            position: relative;
+            left: 0%;
+            bottom: 0%;
+            padding: 20px;
+            height: 80px;
+            margin-top: 1vw;
+            font-size: 0.8vw;
+        }
+     
 }
 
-@media (min-width: 615px) {
+@media (min-width: 700px) {
     header {
         padding-block: 10px;    
         background-color:rgb(29, 69, 102);
@@ -133,7 +229,7 @@ p {
         padding: 10px;
         height: 100px;
         margin-top: 1vw;
-        font-size: 2rem; 
+        font-size: 1.2vw; 
        }
 
     h2 {
@@ -143,5 +239,38 @@ p {
     p {
         font-size: 1 rem;
     }
+    
+.smallicon{
+    color: white;
+    font-size: 2.5vw;
+    text-align: center;
+    padding: 0.5rem;
+}
+.smallicon a{
+    color:black;
+    margin: 0px 12px; 
+    padding: 2rem;
+    font-size: 2vw;
+}
+.smallicon :hover
+{
+    color:gray;
+    font-size: 4vw;
+}
 
+    footer{
+        padding-block: 10px;
+        background-color:rgb(29, 69, 102);
+        color: white;
+        text-align: center;
+        width: 100%;
+        position: relative;
+        left: 0%;
+        bottom: 0%;
+        padding: 20px;
+        height: 80px;
+        margin-top: 1vw;
+        font-size: 0.8vw;
+    }
+    
 }
